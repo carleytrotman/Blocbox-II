@@ -85,12 +85,13 @@ html, body{
    background-image: -moz-linear-gradient( 90deg, rgb(0,84,149) 0%, rgb(95,8,55) 100%);
   background-image: -webkit-linear-gradient( 90deg, rgb(0,84,149) 0%, rgb(95,8,55) 100%);
   background-image: -ms-linear-gradient( 90deg, rgb(0,84,149) 0%, rgb(95,8,55) 100%);
-  position: absolute;
+  /*position: absolute;
   left: 0px;
   top: 0px;
   width: 1440px;
   height: 800px;
-  z-index: 7;
+  z-index: 7;*/
+  /* We don't want to define pixel sizes for width and probably height becuase is responsive. */
 }
 
 
