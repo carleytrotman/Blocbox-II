@@ -71,12 +71,7 @@ html, body{
    .container {
      width: 1170px;
    }
- }
- @media (min-width: 1800px) {
-   .container {
-     width: 1560px;
-   }
- }
+ 
 
  /* HEADER */
  header {
@@ -133,19 +128,19 @@ html, body{
    position: relative;
  }
  header .hero h1 {
-   font-size:75px;
+   font-size:48px;
    font-weight: normal;
-   margin: 50px 0 0;
+   margin: 95px 0 0;
  }
  header .hero p {
-   font-size: 50px;
-   line-height: 45px;
+   font-size: 22px;
+   line-height: 26px;
    font-weight: 100;
    margin:10px 0 40px;
  }
  header .hero img {
    display: block;
-   margin:5em auto 0;
+   margin:3em auto 0;
  }
 
  /* BUTTONS */
