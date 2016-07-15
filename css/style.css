@@ -72,9 +72,9 @@ html, body{
      width: 1170px;
    }
  }
- @media (min-width: 1024px) {
+ @media (min-width: 1800px) {
    .container {
-     width: 984px;
+     width: 1560px;
    }
  }
 
@@ -85,6 +85,7 @@ html, body{
    background-image: -moz-linear-gradient( 90deg, rgb(0,84,149) 0%, rgb(95,8,55) 100%);
   background-image: -webkit-linear-gradient( 90deg, rgb(0,84,149) 0%, rgb(95,8,55) 100%);
   background-image: -ms-linear-gradient( 90deg, rgb(0,84,149) 0%, rgb(95,8,55) 100%);
+  
   /*position: absolute;
   left: 0px;
   top: 0px;
@@ -132,19 +133,19 @@ html, body{
    position: relative;
  }
  header .hero h1 {
-   font-size:48px;
+   font-size:75px;
    font-weight: normal;
-   margin: 65px 0 0;
+   margin: 50px 0 0;
  }
  header .hero p {
-   font-size: 22px;
-   line-height: 26px;
+   font-size: 50px;
+   line-height: 45px;
    font-weight: 100;
    margin:10px 0 40px;
  }
  header .hero img {
    display: block;
-   margin:3em auto 0;
+   margin:5em auto 0;
  }
 
  /* BUTTONS */
