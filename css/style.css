@@ -2,11 +2,11 @@ html, body{
    overflow-x: hidden;
  }
  body {
-   font-family: "Sans source pro", Helvetica, Arial, sans-serif;
+   font-family: "ubuntu", Helvetica, Arial, sans-serif;
    color:#3F3E40;
  }
  h1, h2, h3, h4, h5, h6 {
-   font-family: "Ubuntu", Helvetica, Arial, sans-serif;
+   font-family: "san source pro", Helvetica, Arial, sans-serif;
  }
  
  h1 {
@@ -72,12 +72,28 @@ html, body{
      width: 1170px;
    }
  }
+ @media (min-width: 1024px) {
+   .container {
+     width: 984px;
+   }
+ }
 
  /* HEADER */
  header {
-   color:#FFFFFF;
-   background: #34495E;
-   background-image: linear-gradient(206deg, #5F81A3 0%, #34495E 94%);
+   color:#E0E0E0;
+   background: #005495;
+   background-image: -moz-linear-gradient( 90deg, rgb(0,84,149) 0%, rgb(95,8,55) 100%);
+  background-image: -webkit-linear-gradient( 90deg, rgb(0,84,149) 0%, rgb(95,8,55) 100%);
+  background-image: -ms-linear-gradient( 90deg, rgb(0,84,149) 0%, rgb(95,8,55) 100%);
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 1440px;
+  height: 800px;
+  z-index: 7;
+}
+
+
  }
  header nav {
    padding:1em 0;
@@ -95,18 +111,18 @@ html, body{
  }
  header nav ul > li.btn-outline {
    padding:10px 15px;
-   border:2px solid #FFFFFF;
+   border:2px solid #E0E0E0;
    border-radius: 4px;
  }
  header nav ul > li.btn-outline:hover {
-   background:#FFFFFF;
+   background:#E0E0E0;
  }
  header nav ul > li > a {
-   color:#FFFFFF;
+   color:#E0E0E0;
    text-decoration: none;
  }
  header nav ul > li.btn-outline:hover > a {
-   color:#34495E;
+   color:#005495;
  }
 
  header .hero {
@@ -117,7 +133,7 @@ html, body{
  header .hero h1 {
    font-size:48px;
    font-weight: normal;
-   margin:95px 0 0;
+   margin: 65px 0 0;
  }
  header .hero p {
    font-size: 22px;
@@ -133,7 +149,7 @@ html, body{
  /* BUTTONS */
  .btn {
    border-radius: 4px;
-   color:#FFFFFF;
+   color:#E0E0E0;
    font-weight: 700;
    text-decoration: none;
    padding:10px 30px;
