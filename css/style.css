@@ -270,6 +270,7 @@ html, body{
  }
 
  /* TESTIMONIALS */
+
  .testimonials {
    padding:4em 0;
    text-align: center;
@@ -319,3 +320,7 @@ html, body{
    font-size:13px;
    margin-top: 30px;
  }
+
+#staggered {
+  height: 20px;
+}
