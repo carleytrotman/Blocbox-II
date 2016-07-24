@@ -1,5 +1,8 @@
 /* This is Niki's version of a comment, this will result in a conflict in style.css */
 
+/* this is a comment simulating merge conflict*/
+
+
 
 
 
@@ -379,13 +382,11 @@ html, body{
      padding: 2em 0 2em 1.5em;
    }
  }
-=======
 
 /* does the same thing as .staggared */
 .testimonials ul li:nth-child(even) {
   margin-top: 20px;
 }
->>>>>>> fd9860c5671baa277425c1a0c7070d6cdaa49de7
 
 
 /* DASHBOARD */
