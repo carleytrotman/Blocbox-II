@@ -321,6 +321,7 @@ html, body{
    margin-top: 30px;
  }
 
+<<<<<<< HEAD
 #staggered {
   height: 20px;
 }
@@ -373,3 +374,10 @@ html, body{
      padding: 2em 0 2em 1.5em;
    }
  }
+=======
+
+/* does the same thing as .staggared */
+.testimonials ul li:nth-child(even) {
+  margin-top: 20px;
+}
+>>>>>>> fd9860c5671baa277425c1a0c7070d6cdaa49de7
