@@ -390,14 +390,13 @@ html, body{
      padding: 2em 0 2em 1.5em;
    }
  }
-
  
 /* does the same thing as .staggared */
 .testimonials ul li:nth-child(even) {
   margin-top: 20px;
 }
 
-
+   
 /* DASHBOARD */
  .dashboard {
    background:#FFFFFF;
@@ -408,7 +407,7 @@ html, body{
    color:#E0E0E0;
    background-image:(90deg, rgb(0,84,149) 0%, rgb(95,8,55) 100%);
    background-image: linear-gradient(90deg, #005495 0%, #5F0837 100%);
-   height: 140px;
+   height: 120px;
    position:relative;
    
  }
@@ -416,62 +415,58 @@ html, body{
  .header-nav .site-logo {
   display:inline;
   float:left;
-  margin:20px;
-  padding: 20px;
+  margin:10px;
+  padding: none;
+  width: 75px;
  
  }
 
- .header-nav ul {
-   width: 600px;
-   padding: 15px;
-   color:#E0E0E0;
-   display: block;
-   text-decoration: none;
-   text-align: center;
- }
-
-.header-nav ul li {
-   color: #E0E0E0;
-   display: block;
-   text-decoration:none;
-  
- }
-
- .header-nav ul li a {
-   color: #E0E0E0;
-   display:inline;
-   text-decoration:none;
-   padding: 20px 0; 
+ .header-nav .main-nav {
+  display:inline;
+  float: left;
+  padding:50px;
+  width: 650px;
+  margin-left:50px;
+ 
  }
 
   /* HEADER NAVBAR SETTINGS */
 
  .header-nav .settings {
-   position: absolute;
-   bottom:0;
-   right:0;
-   padding:20px 20px;
+   display:inline;
+   float:left;
+   margin-left:100px;
+   position:absolute;
+   padding:25px;
+   width:120px;
  }
+
  .header-nav .settings img {
-   height:35px;
-   width:35px;
-   border-radius: 50%;
-   display: inline-block;
+   height:60px;
+   width:60px;
+   border-radius:50%;
+   display: inline;
+   float:left;
+   position:relative;
  }
+
  .header-nav .settings p {
-   display: inline-block;
-   padding-top: 8px;
-   font-weight: 400;
-   margin:0 0 0 10px;
+   display:inline;
+   width:200px;
+   position:absolute;
+   padding-left:20px;
+   margin-top: 20px;
+  
  }
  .header-nav .settings a {
    color:#E0E0E0;
-   text-decoration: none;
-   text-align: right;
-   float: right;
-   margin-right:10px;
-   margin-top:8px;
- }
+   display:inline;
+   width:300px;
+   position:absolute;
+   padding-left:150px;
+   padding-bottom:20px;
+   
+  }
 
   /* LEFT NAVIGATION */
 
