@@ -1,4 +1,4 @@
-/* This is Niki's version of a comment, this will result in a conflict in style.css */
+f/* This is Niki's version of a comment, this will result in a conflict in style.css */
 
 /* this is a comment simulating merge conflict*/
 
@@ -14,6 +14,19 @@ html, body{
    font-family: "ubuntu", Helvetica, Arial, sans-serif;
    color: #3F3E40;
  }
+
+ /* For devices smaller than 460px */
+@media (max-width: 460px) {
+  .body {
+    width: 85%;
+    padding: 0; }
+}
+
+/* For devices smaller than 940px */
+@media (max-width: 940px) {
+  .body {
+    width: 80%; }
+  
  h1, h2, h3, h4, h5, h6 {
    font-family: "sans source pro", Helvetica, Arial, sans-serif;
  }
@@ -27,6 +40,19 @@ html, body{
    font-weight: normal;
    margin-bottom: 5px;
  }
+
+ /* For devices smaller than 460px */
+  @media (max-width: 460px) {
+  h1 { font-size: 50%; }
+  h2 { font-size: 40%; }
+  p  { font-size: 30%; }
+
+/* For devices smaller than 940px */
+ @media (max-width: 940px) {
+  h1 { font-size: 50%; }
+  h2 { font-size: 40%; }
+  p  { font-size: 30%; }  
+
  p {
    font-size: 16px;
    line-height: 19px;
@@ -275,7 +301,7 @@ html, body{
  .box .btn {
    position:absolute;
    bottom:20px;
-   left:20px;
+   left:40px;
    right:20px;
 
  }
@@ -461,9 +487,9 @@ html, body{
  .header-nav .settings a {
    color:#E0E0E0;
    display:inline;
-   width:300px;
+   width:100px;
    position:absolute;
-   padding-left:150px;
+   padding-left:100px;
    padding-bottom:20px;
    
   }

@@ -37,16 +37,16 @@
   <div class="settings">
     <div class="user image"><img src="https://s3.amazonaws.com/uifaces/faces/twitter/jsa/128.jpg"></div>
       <p class="user-name">David Anderson</p>
-        <ul class="settings-nav">
-          <li><a href="#"><i class="fa fa-cog"></i></a>
-            <ul class="settings-nav">
-                  <li><a href="#"><i class="fa fa-cog"></i>Settings</a></li>
-                  <li><a href="#"><i class="fa fa-video-camera">Tutorials</i></a></li>
-                  <li><a href="#"><i class="fa fa-sign-out"></i>Sign Out</a></li>
+       </div>
+       <ul class="settings-menu">
+            <li><a href="#"><i class="fa fa-cog"></i></a>
+              <ul>
+                  <li><a href="#"><i class="fa fa-cog"></i> Settings</a></li>
+                  <li><a href="#"><i class="fa fa-video-camera"></i> Tutorials</a></li>
+                  <li><a href="#"><i class="fa fa-sign-out"></i> Sign Out</a></li>
               </ul>
             </li>
           </ul>
-       </div>
        </div>
      </header>
 
@@ -129,9 +129,9 @@
             <li>
               <a href="#" class="btn">+ Add</a>
               <ul>
-                  <li><a href="#"><i class="fa fa-file-o"></i>Note</a></li>
-                  <li><a href="#"><i class="fa fa-picture-o"></i>Image</a></li>
-                  <li><a href="#"><i class="fa fa-link"></i>Link</a></li>
+                  <li><a href="#"><i class="fa fa-file-o"></i> Note</a></li>
+                  <li><a href="#"><i class="fa fa-picture-o"></i> Image</a></li>
+                  <li><a href="#"><i class="fa fa-link"></i> Link</a></li>
               </ul>
             </li>
           </ul>
@@ -145,6 +145,9 @@
         $( "#menu" ).click(function() {
          $("#left-nav").toggleClass("open", 200);
      });
+        $(".settings-menu").dropit();
+        $( "#settings-menu" ).click(function() {
+        });   
       </script>
    </body>
  </html>
